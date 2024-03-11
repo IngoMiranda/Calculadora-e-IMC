@@ -80,8 +80,17 @@ function validDigits(text) {
 };
 
 
+[heightInput, weightInput].forEach((el) => {
+    el.addEventListener("input", (e) => {
+        const updateValue = validDigits(e.target.value);
+        e.target.value = updateValue;
+    });
+});
+
+
+creatTable(data);
+
 cleaBtn.addEventListener("click", (e) => {
     e.preventDefault();
     clearInputs();
 });
-creatTable(data);
