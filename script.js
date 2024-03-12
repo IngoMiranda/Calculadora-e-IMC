@@ -75,7 +75,7 @@ function clearInputs() {
 };
 
 function validDigits(text) {
-    return text.replace(/[^0-9,]/g, "");
+    return text.replace(/[^0-9,]/g,"");
     // validação de texto: Permitindo apenas escrever números e com vírgulas
 };
 
