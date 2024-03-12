@@ -79,7 +79,6 @@ function validDigits(text) {
     // validação de texto: Permitindo apenas escrever números e com vírgulas
 };
 
-
 creatTable(data);
 
 
